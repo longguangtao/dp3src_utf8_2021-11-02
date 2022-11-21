@@ -1,0 +1,599 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            // "args": ["list.html","AbstractFactory.Sample.listfactory.ListFactory"],
+            "args": "[23, 232]"
+
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "AbstractFactory.A2.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc",
+            "args": "text"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(1)",
+            "request": "launch",
+            "mainClass": "AbstractFactory.Sample.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(2)",
+            "request": "launch",
+            "mainClass": "Adapter.A2.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(3)",
+            "request": "launch",
+            "mainClass": "Adapter.Q2.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(4)",
+            "request": "launch",
+            "mainClass": "Adapter.Sample1.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(5)",
+            "request": "launch",
+            "mainClass": "Adapter.Sample2.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(6)",
+            "request": "launch",
+            "mainClass": "Bridge.A1.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(7)",
+            "request": "launch",
+            "mainClass": "Bridge.A2.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(8)",
+            "request": "launch",
+            "mainClass": "Bridge.A3.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(9)",
+            "request": "launch",
+            "mainClass": "Bridge.Sample.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(10)",
+            "request": "launch",
+            "mainClass": "Builder.A2.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(11)",
+            "request": "launch",
+            "mainClass": "Builder.A3.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(12)",
+            "request": "launch",
+            "mainClass": "Builder.A4.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(13)",
+            "request": "launch",
+            "mainClass": "Builder.Sample.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(14)",
+            "request": "launch",
+            "mainClass": "ChainOfResponsibility.A3.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(15)",
+            "request": "launch",
+            "mainClass": "ChainOfResponsibility.Sample.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(16)",
+            "request": "launch",
+            "mainClass": "Command.A1.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(17)",
+            "request": "launch",
+            "mainClass": "Command.A2.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(18)",
+            "request": "launch",
+            "mainClass": "Command.A3.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(19)",
+            "request": "launch",
+            "mainClass": "Command.Sample.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(20)",
+            "request": "launch",
+            "mainClass": "Composite.A2.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(21)",
+            "request": "launch",
+            "mainClass": "Composite.Sample.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(22)",
+            "request": "launch",
+            "mainClass": "Decorator.A1.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(23)",
+            "request": "launch",
+            "mainClass": "Decorator.A2.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(24)",
+            "request": "launch",
+            "mainClass": "Decorator.Q1.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(25)",
+            "request": "launch",
+            "mainClass": "Decorator.Q2.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(26)",
+            "request": "launch",
+            "mainClass": "Decorator.Sample.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(27)",
+            "request": "launch",
+            "mainClass": "Facade.A2.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(28)",
+            "request": "launch",
+            "mainClass": "Facade.A3.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(29)",
+            "request": "launch",
+            "mainClass": "Facade.Q2.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(30)",
+            "request": "launch",
+            "mainClass": "Facade.Q3.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(31)",
+            "request": "launch",
+            "mainClass": "Facade.Sample.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(32)",
+            "request": "launch",
+            "mainClass": "FactoryMethod.A2.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(33)",
+            "request": "launch",
+            "mainClass": "FactoryMethod.Sample.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(34)",
+            "request": "launch",
+            "mainClass": "Flyweight.A1.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(35)",
+            "request": "launch",
+            "mainClass": "Flyweight.A2.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(36)",
+            "request": "launch",
+            "mainClass": "Flyweight.Sample.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(37)",
+            "request": "launch",
+            "mainClass": "Interpreter.A1.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(38)",
+            "request": "launch",
+            "mainClass": "Interpreter.Sample.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(39)",
+            "request": "launch",
+            "mainClass": "Iterator.A1.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(40)",
+            "request": "launch",
+            "mainClass": "Iterator.Sample.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(41)",
+            "request": "launch",
+            "mainClass": "Mediator.A1.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(42)",
+            "request": "launch",
+            "mainClass": "Mediator.Sample.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(43)",
+            "request": "launch",
+            "mainClass": "Memento.A4.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(44)",
+            "request": "launch",
+            "mainClass": "Memento.Sample.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(45)",
+            "request": "launch",
+            "mainClass": "Observer.A1.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(46)",
+            "request": "launch",
+            "mainClass": "Observer.A2.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(47)",
+            "request": "launch",
+            "mainClass": "Observer.Q1.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(48)",
+            "request": "launch",
+            "mainClass": "Observer.Sample.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(49)",
+            "request": "launch",
+            "mainClass": "Prototype.A1a.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(50)",
+            "request": "launch",
+            "mainClass": "Prototype.A1b.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(51)",
+            "request": "launch",
+            "mainClass": "Prototype.A2.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(52)",
+            "request": "launch",
+            "mainClass": "Prototype.Sample.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(53)",
+            "request": "launch",
+            "mainClass": "Proxy.A1.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(54)",
+            "request": "launch",
+            "mainClass": "Proxy.Sample.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(55)",
+            "request": "launch",
+            "mainClass": "Singleton.A1.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(56)",
+            "request": "launch",
+            "mainClass": "Singleton.A2a.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(57)",
+            "request": "launch",
+            "mainClass": "Singleton.A2b.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(58)",
+            "request": "launch",
+            "mainClass": "Singleton.A3a.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(59)",
+            "request": "launch",
+            "mainClass": "Singleton.A3b.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(60)",
+            "request": "launch",
+            "mainClass": "Singleton.Q1.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(61)",
+            "request": "launch",
+            "mainClass": "Singleton.Q2a.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(62)",
+            "request": "launch",
+            "mainClass": "Singleton.Q2b.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(63)",
+            "request": "launch",
+            "mainClass": "Singleton.Sample.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(64)",
+            "request": "launch",
+            "mainClass": "State.A1.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(65)",
+            "request": "launch",
+            "mainClass": "State.A3.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(66)",
+            "request": "launch",
+            "mainClass": "State.A4.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(67)",
+            "request": "launch",
+            "mainClass": "State.Sample.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(68)",
+            "request": "launch",
+            "mainClass": "Strategy.A1.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(69)",
+            "request": "launch",
+            "mainClass": "Strategy.A4a.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(70)",
+            "request": "launch",
+            "mainClass": "Strategy.A4b.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(71)",
+            "request": "launch",
+            "mainClass": "Strategy.Q4.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(72)",
+            "request": "launch",
+            "mainClass": "Strategy.Sample.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(73)",
+            "request": "launch",
+            "mainClass": "TemplateMethod.A4.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(74)",
+            "request": "launch",
+            "mainClass": "TemplateMethod.Sample.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(75)",
+            "request": "launch",
+            "mainClass": "Visitor.A1.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(76)",
+            "request": "launch",
+            "mainClass": "Visitor.A2.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(77)",
+            "request": "launch",
+            "mainClass": "Visitor.A3a.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(78)",
+            "request": "launch",
+            "mainClass": "Visitor.A3b.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(79)",
+            "request": "launch",
+            "mainClass": "Visitor.A3c.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(80)",
+            "request": "launch",
+            "mainClass": "Visitor.Q1.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(81)",
+            "request": "launch",
+            "mainClass": "Visitor.Q3.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(82)",
+            "request": "launch",
+            "mainClass": "Visitor.Sample.Main",
+            "projectName": "dp3src_utf8_2021-11-02_18cdefdc"
+        }
+    ]
+}
