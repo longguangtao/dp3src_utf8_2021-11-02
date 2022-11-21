@@ -1,3 +1,5 @@
+package State.A1;
+
 public class DayState implements State {
     private static DayState singleton = new DayState();
 

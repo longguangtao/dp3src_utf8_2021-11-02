@@ -1,3 +1,5 @@
+package State.Sample;
+
 public interface Context {
     public abstract void setClock(int hour);                // 時刻の設定
     public abstract void changeState(State state);          // 状態変化

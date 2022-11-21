@@ -1,3 +1,5 @@
+package Proxy.A1;
+
 public interface Printable {
     public abstract void setPrinterName(String name);   // 名前の設定
     public abstract String getPrinterName();            // 名前の取得

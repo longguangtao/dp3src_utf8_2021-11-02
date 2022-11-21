@@ -1,3 +1,5 @@
+package Proxy.A1;
+
 public class PrinterProxy implements Printable {
     private String name;            // 名前
     private Printable real;         // 「本人」

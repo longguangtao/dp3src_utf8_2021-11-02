@@ -1,3 +1,5 @@
+package Flyweight.A2;
+
 public class BigString {
     // 「大きな文字」の配列
     private BigChar[] bigchars;

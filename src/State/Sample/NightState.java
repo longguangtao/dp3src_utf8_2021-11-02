@@ -1,3 +1,5 @@
+package State.Sample;
+
 public class NightState implements State {
     private static NightState singleton = new NightState();
 
@@ -10,7 +12,7 @@ public class NightState implements State {
 
     @Override
     public void doClock(Context context, int hour) {
-        if (9 <= hour && hour < 17) {
+        if (8 <= hour && hour < 21) {
             context.changeState(DayState.getInstance());
         }
     }

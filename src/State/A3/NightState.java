@@ -1,3 +1,5 @@
+package State.A3;
+
 public class NightState implements State {
     private static NightState singleton = new NightState();
 

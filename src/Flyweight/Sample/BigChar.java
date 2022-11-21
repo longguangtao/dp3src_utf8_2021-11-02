@@ -1,3 +1,5 @@
+package Flyweight.Sample;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -12,7 +14,7 @@ public class BigChar {
     public BigChar(char charname) {
         this.charname = charname;
         try {
-            String filename = "big" + charname + ".txt";
+            String filename = "C:\\Users\\Longguangtao\\Desktop\\dp3src_utf8_2021-11-02\\src\\Flyweight\\Sample\\big" + charname + ".txt";
             StringBuilder sb = new StringBuilder();
             for (String line: Files.readAllLines(Path.of(filename))) {
                 sb.append(line);
@@ -26,6 +28,8 @@ public class BigChar {
 
     // 大きな文字を表示する
     public void print() {
-        System.out.print(fontdata);
+        if (charname + "" != "") {
+            System.out.print(fontdata);
+        }
     }
 }

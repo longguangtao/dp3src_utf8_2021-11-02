@@ -1,3 +1,5 @@
+package Proxy.A1;
+
 public class Printer implements Printable {
     private String name; // 名前
 

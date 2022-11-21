@@ -10,7 +10,7 @@
             "request": "launch",
             "mainClass": "${file}",
             // "args": ["list.html","AbstractFactory.Sample.listfactory.ListFactory"],
-            "args": "[23, 232]"
+            "args": "12345678"
 
         },
         {

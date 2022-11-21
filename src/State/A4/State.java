@@ -1,3 +1,5 @@
+package State.A4;
+
 public interface State {
     public abstract void doClock(Context context, int hour);    // 時刻設定
     public abstract void doUse(Context context);                // 金庫使用

@@ -1,3 +1,5 @@
+package Flyweight.A2;
+
 import java.util.HashMap;
 import java.util.Map;
 
