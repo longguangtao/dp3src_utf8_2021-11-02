@@ -1,9 +1,13 @@
-import language.*;
-import turtle.*;
+package Interpreter.A1;
 
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
+
+import Interpreter.A1.language.InterpreterFacade;
+import Interpreter.A1.language.ParseException;
+import Interpreter.A1.turtle.TurtleCanvas;
+import Interpreter.A1.turtle.TurtleExecutorFactory;
 
 public class Main extends JFrame {
     private TurtleCanvas canvas = new TurtleCanvas(400, 400);

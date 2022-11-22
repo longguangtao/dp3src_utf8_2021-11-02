@@ -28,6 +28,8 @@ public class BigChar {
 
     // 大きな文字を表示する
     public void print() {
-        System.out.print(fontdata);
+        if (charname + "" != "") {
+            System.out.print(fontdata);
+        }
     }
 }

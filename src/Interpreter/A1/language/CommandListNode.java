@@ -1,4 +1,4 @@
-package language;
+package Interpreter.A1.language;
 
 import java.util.ArrayList;
 import java.util.List;

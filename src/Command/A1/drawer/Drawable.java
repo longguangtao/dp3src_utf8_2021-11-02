@@ -1,4 +1,4 @@
-package drawer;
+package Command.A1.drawer;
 
 import java.awt.Color;
 

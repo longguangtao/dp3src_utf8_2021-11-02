@@ -1,4 +1,4 @@
-import java.util.*;
+package Interpreter.Sample;
 
 public class Context {
     private String[] tokens;

@@ -1,4 +1,4 @@
-package language;
+package Interpreter.A1.language;
 
 // <primitive command> ::= go | right | left
 public class PrimitiveCommandNode extends Node {

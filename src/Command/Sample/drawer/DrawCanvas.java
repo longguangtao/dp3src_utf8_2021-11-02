@@ -1,10 +1,10 @@
-package drawer;
-
-import command.MacroCommand;
+package Command.Sample.drawer;
 
 import java.awt.Canvas;
 import java.awt.Color;
 import java.awt.Graphics;
+
+import Command.Sample.command.MacroCommand;
 
 public class DrawCanvas extends Canvas implements Drawable {
     // 描画色

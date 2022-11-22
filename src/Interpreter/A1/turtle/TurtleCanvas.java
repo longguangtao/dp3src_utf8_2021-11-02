@@ -1,7 +1,6 @@
-package turtle;
+package Interpreter.A1.turtle;
 
-import language.Executor;
-import language.ExecutorFactory;
+import Interpreter.A1.language.Executor;
 import java.awt.*;
 
 public class TurtleCanvas extends Canvas {

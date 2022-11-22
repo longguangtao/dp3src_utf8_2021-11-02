@@ -1,9 +1,12 @@
-import command.*;
-import drawer.*;
+package Command.A3;
 
-import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
+
+import Command.A3.command.Command;
+import Command.A3.command.MacroCommand;
+import Command.A3.drawer.DrawCanvas;
+import Command.A3.drawer.DrawCommand;
 
 public class Main extends JFrame {
     // 描画履歴

@@ -1,9 +1,14 @@
-import command.*;
-import drawer.*;
+package Command.A1;
 
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
+
+import Command.A1.command.Command;
+import Command.A1.command.MacroCommand;
+import Command.A1.drawer.ColorCommand;
+import Command.A1.drawer.DrawCanvas;
+import Command.A1.drawer.DrawCommand;
 
 public class Main extends JFrame implements MouseMotionListener, WindowListener {
     // 描画履歴

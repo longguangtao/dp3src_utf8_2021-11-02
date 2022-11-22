@@ -1,9 +1,11 @@
-package drawer;
+package Command.A1.drawer;
 
-import command.MacroCommand;
 
 import java.awt.Color;
 import java.awt.Graphics;
+
+import Command.A1.command.MacroCommand;
+
 import java.awt.Canvas;
 
 public class DrawCanvas extends Canvas implements Drawable {

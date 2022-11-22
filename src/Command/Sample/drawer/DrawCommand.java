@@ -1,7 +1,8 @@
-package drawer;
+package Command.Sample.drawer;
 
-import command.Command;
 import java.awt.Point;
+
+import Command.Sample.command.Command;
 
 public class DrawCommand implements Command {
     // 描画対象

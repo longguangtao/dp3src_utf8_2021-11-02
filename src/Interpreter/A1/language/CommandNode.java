@@ -1,4 +1,4 @@
-package language;
+package Interpreter.A1.language;
 
 // <command> ::= <repeat command> | <primitive command>
 public class CommandNode extends Node {

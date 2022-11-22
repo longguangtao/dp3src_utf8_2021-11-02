@@ -1,3 +1,5 @@
+package Interpreter.Sample;
+
 // <program> ::= program <command list>
 public class ProgramNode extends Node {
     private Node commandListNode;

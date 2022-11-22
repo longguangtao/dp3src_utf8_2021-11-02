@@ -1,7 +1,8 @@
-package drawer;
+package Command.A1.drawer;
 
-import command.Command;
 import java.awt.Color;
+
+import Command.A1.command.Command;
 
 public class ColorCommand implements Command {
     // 描画対象
